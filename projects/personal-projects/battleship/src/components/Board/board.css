@@ -1,0 +1,12 @@
+.flex {
+  height: 60em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right:20%;
+}
+
+
+
+/* Add Media Queries */

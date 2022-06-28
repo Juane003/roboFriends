@@ -1,0 +1,12 @@
+.horizontal-grid{
+  display: grid;
+  grid-template-columns: repeat(10, 4em);
+  gap: 5px;
+  color: white; 
+  
+}
+.flex-horizontal {
+  position:relative;
+  left: 46.5em;
+  bottom:22em;
+}

@@ -1,0 +1,26 @@
+.grid{
+  background-color: black;
+  /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
+  display: grid;
+  grid-template-columns: repeat(10, 4em);
+  grid-template-rows: repeat(10, 4em);
+  gap: 5px;
+}
+
+.default{
+  background: none;
+  border: 1px solid white;
+}
+
+.warship {
+  background-color: #2a2a72;
+  background-image: url(./frigate.svg);
+  background-size: 120%;
+  border: 1px solid white;
+}
+
+.water {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  border: 1px solid white;
+}
